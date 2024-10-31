@@ -5,10 +5,13 @@ function App() {
     <div className="App">
       <header className="App-header">
                 <p>
-          Hello world
+          Hello
         </p>
-       <a href="#" className="btn btn-primary">Hello</a> 
+        
       </header>
+      <footer>
+        Coded by Matshelane Rapolai 
+      </footer>
     </div>
   );
 }
