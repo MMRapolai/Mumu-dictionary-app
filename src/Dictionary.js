@@ -32,7 +32,9 @@ export default function Dictionary() {
                     suggested words: sunset, wine, yoga, plant...
                     </div>
                     </section>
+
                 <Results results={results} />
                 </div>
+            
     );
 }
