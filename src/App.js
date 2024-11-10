@@ -8,7 +8,7 @@ function App() {
       <header className="App-header"> 
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset"/>
       </main>
       <footer className='text-center'>
         Coded by Matshelane Rapolai 
