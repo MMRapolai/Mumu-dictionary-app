@@ -40,7 +40,6 @@ export default function Dictionary(props) {
 
     return (
         <div className="Dictionary">
-
             <div className="container">
             
                 <h1>What word do you want to look up?</h1>
@@ -50,10 +49,10 @@ export default function Dictionary(props) {
                 <input type="search" onChange={handleSearch}
                 className="searchInput" />
                     suggested words: sunset, wine, yoga, plant...
+                
                     </form>
                     </div>
                     <div className="col-sm-8">
-
                 <Results results={results} />
                 <Photos photos={photos} />
                 </div>
